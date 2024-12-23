@@ -63,6 +63,7 @@ namespace WinFormsApp16
             {
                 button1.Text = "complete!";
                 label1.Text = "Responses have been sent";
+                Answers += textBox2.Text;
                 sendMessage();
             }
 
